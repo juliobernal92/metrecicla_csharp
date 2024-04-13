@@ -1,0 +1,55 @@
+﻿@model IEnumerable<MetReciclaWebFinalOK.Models.VendedorViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+    .table th {
+        width: fit-content;
+    }
+</style>
+
+<h1>Lista de Vendedores</h1>
+<br />
+<h5>Añade vendedores a la base de datos</h5>
+<br />
+<h6>Con WebService SOAP</h6>
+<br />
+
+<p><a asp-action="Create" class="btn btn-secondary">Añadir Vendedor</a></p>
+<table class="table table-hover table-light table-striped table-borderless">
+    <thead class="table table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telefono)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Direccion)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefono)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Direccion)
+            </td>
+            <td>
+                <a href="@Url.Action("Edit", new { id = item.Idvendedor })" class="btn btn-secondary btn-sm">Editar</a> |
+                <a href="@Url.Action("Delete", new { id = item.Idvendedor })" class="btn btn-danger btn-sm">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

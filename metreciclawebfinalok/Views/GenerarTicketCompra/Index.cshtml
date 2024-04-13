@@ -1,0 +1,502 @@
+﻿@model MetReciclaWebFinalOK.Models.GenerarTicketCompraModel
+@{
+    ViewData["Title"] = "Index";
+}
+@{
+    var nombresChatarra = ViewBag.NombresChatarra as List<SelectListItem>;
+}
+
+<div class="row align-items-center">
+    <form asp-controller="GenerarTicketCompra" asp-action="CrearVendedor" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="row align-items-center">
+        <!-- ID Vendedor -->
+        <div class="col-md-auto mb-3">
+            <label asp-for="Idvendedor" for="idVendedor" class="form-label">ID Vendedor:</label>
+                <input value="@TempData["NuevoVendedorId"]" type="text" class="form-control " id="idVendedor" style="width: 100px;" placeholder="Id">
+        </div>
+
+        <!-- Nombre -->
+        <div class="col-md-2 mb-3">
+                <label asp-for="Nombre" for="nombre" class="form-label">Nombre:</label>
+                <input asp-for="Nombre" type="text" value="@TempData["NuevoNombre"]" class="form-control" id="nombre" placeholder="Nombre">
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+        </div>
+
+        <!-- Teléfono -->
+        <div class="col-md-2 mb-3">
+            <label asp-for="Telefono" for="telefono" class="form-label">Teléfono:</label>
+                <input asp-for="Telefono" type="text" value="@TempData["NuevoTel"]" class="form-control" id="telefono" placeholder="Telefono">
+            <span asp-validation-for="Telefono" class="text-danger"></span>
+        </div>
+
+        <!-- Dirección -->
+        <div class="col-md-2 mb-3">
+            <label asp-for="Direccion" for="direccion" class="form-label">Dirección:</label>
+                <input asp-for="Direccion" type="text" value="@TempData["NuevoDir"]" class="form-control" id="direccion" placeholder="Dirección">
+                <span asp-validation-for="Direccion" class="text-danger"></span>
+        </div>
+
+            <!-- Fecha -->
+            <div class="col-md mb-3 position-relative" id="fecha-container">
+                <label asp-for="Fecha" for="fecha" class="form-label">Fecha:</label>
+                <div class="input-group">
+                    <input asp-for="Fecha" type="text" class="form-control" id="fecha" placeholder="Fecha">
+                    <span class="input-group-text" id="datepicker-icon"><i class="fas fa-calendar-alt"></i></span>
+                </div>
+                <span asp-validation-for="Fecha" class="text-danger"></span>
+            </div>
+
+
+        <!-- Botón de añadir -->
+        <div class="col-md-2 mb-3 d-grid">
+            <label for="btnadd" class="form-label"><br /></label>
+                <button type="submit" class="btn btn-success" id="btnadd">Añadir</button>
+        </div>
+    </div>
+    </form>
+
+</div>
+
+        <!-- NUEVA LINEA -->
+        <!-- Nueva fila con idticket, idchatarra, chatarra, precio, cantidad y botones -->
+        <div class="row align-items-center">
+            <!-- ID Ticket -->
+            <div class="col-md-auto mb-3">
+                <label for="idTicket" class="form-label">ID Ticket:</label>
+                <input type="text" class="form-control" value="@TempData["idticketcompra"]" id="idTicket" style="width: 70px;" placeholder="Id">
+            </div>
+
+            <!-- ID Chatarra -->
+            <div class="col-md-auto mb-3">
+                <label for="idChatarra" class="form-label">ID Chatarra:</label>
+                <input type="text" class="form-control" id="idChatarra" style="width: 80px;" placeholder="Id">
+            </div>
+
+
+            <!-- Chatarra (combobox) -->
+            <div class="col-md mb-3">
+                <label for="idChatarra" class="form-label">Chatarra:</label>
+                @Html.DropDownList("idChatarra", nombresChatarra, "Seleccione una Chatarra", new { @class = "form-select", id = "chatarra" })
+            </div>
+ 
+
+
+            <!-- Precio -->
+            <div class="col-md mb-3">
+                <label for="precio" class="form-label">Precio:</label>
+                <input type="text" class="form-control" id="precio" placeholder="Precio">
+            </div>
+
+            <!-- Cantidad -->
+            <div class="col-md mb-3">
+                <label for="cantidad" class="form-label">Cantidad:</label>
+                <input type="text" class="form-control" id="cantidad" placeholder="Cantidad">
+            </div>
+
+            <!-- Botones de acción -->
+            <div class="col-auto">
+                <p></p>
+                <label for="btnaddch" class="form-label"><br/></label>
+                <button type="submit" class="btn btn-success" id="btnaddch" onclick="addDetalleCompra()">Añadir</button>
+                
+                <label for="btncleanch" class="form-label"></label>
+                <button type="button" class="btn btn-secondary" id="btnclearch">Limpiar</button>
+            </div>
+        </div>
+
+
+        <br/>
+<!-- TABLA -->
+
+<div id="tablaDetallesCompraContainer">
+    <table class="table table-bordered">
+        <thead class="table-success">
+            <tr>
+                <th>ID</th>
+                <th>Detalles</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+        <tbody id="detallesCompraBody">
+
+        </tbody>
+    </table>
+</div>
+
+<div >
+        <div class="col-md mb-3">
+        <label for="total" class="form-label" style="display: none;">El Total es: </label>
+        <input type="text" class="form-control" id="total" placeholder="Total" readonly style="display: none;">
+        </div>
+
+
+        <div id="totalContainer"></div>
+        <br/>
+
+        <!--BOTON IMPRIMIR-->
+        <div>
+            <button type="button" class="btn btn-success " id="btnimprimir" onclick="addTotal()">Imprimir</button>
+        </div>
+</div>
+<br />
+<div id="alertContainer"></div>
+
+
+        <!-- Agrega los scripts de Bootstrap desde un CDN -->
+        @* <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script> *@
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+
+
+<script>
+    //FECHA
+    // Obtén la fecha actual
+    var fechaActual = new Date();
+
+    // Formatea la fecha como dd/mm/yyyy
+    var formatoFecha = ("0" + fechaActual.getDate()).slice(-2) + "/" + ("0" + (fechaActual.getMonth() + 1)).slice(-2) + "/" + fechaActual.getFullYear();
+
+    // Establece la fecha actual en el campo de texto
+    $('#fecha').val(formatoFecha);
+
+    // Inicializa el datepicker
+    $('#fecha').datepicker({
+        format: 'dd/mm/yyyy', // Ajusta el formato de fecha según tus preferencias
+        autoclose: true,
+        todayHighlight: true,
+        container: '#fecha-container',
+        language: 'es', // Establece el idioma en español
+        weekStart: 1, // Inicia la semana en lunes
+        todayBtn: true, // Muestra un botón para seleccionar la fecha actual
+        clearBtn: true // Muestra un botón para borrar la fecha seleccionada
+    });
+
+    // Abre el datepicker al hacer clic en el ícono
+    $('#datepicker-icon').on('click', function () {
+        $('#fecha').datepicker('show');
+    });
+
+    // Actualiza el campo de texto cuando se selecciona una fecha
+    $('#fecha').on('changeDate', function (e) {
+        $(this).val(e.format());
+    });
+
+    //FIN FECHA
+
+
+    ///-----------------------------------------------------
+    // Modifica el evento change del combobox
+    $("#chatarra").change(function () {
+        // Obtén el valor seleccionado (que debería ser el ID de la chatarra)
+        var idChatarraSeleccionada = $(this).val();
+
+        // Llama a la función para obtener el ID y precio
+        ObtenerIdPrecioChatarra(idChatarraSeleccionada);
+    });
+
+    // Función para obtener el ID y precio de la chatarra por ID
+    function ObtenerIdPrecioChatarra(idChatarra) {
+        // Realiza una solicitud al servidor para obtener el ID y precio por ID de la chatarra
+        $.ajax({
+            type: "GET",
+            url: "/GenerarTicketCompra/ObtenerIdPrecioChatarra",
+            data: { idChatarra: idChatarra },
+            success: function (data) {
+                // Maneja los datos devueltos (por ejemplo, actualiza los campos en la vista)
+                $("#idChatarra").val(data.id); // Actualiza el campo de ID de la chatarra
+                $("#precio").val(data.precio); // Actualiza el campo de precio
+            },
+            error: function (error) {
+                console.log("Error al obtener ID y precio de la chatarra: " + error.responseText);
+            }
+        });
+    }
+
+
+    //---------------------------
+
+    // Función para obtener el nombre de la chatarra por ID
+
+    function ObtenerNombreChatarra(idChatarra, callback) {
+        $.ajax({
+            type: "GET",
+            url: "/GenerarTicketCompra/ObtenerNombreChatarra",
+            data: { idChatarra: idChatarra },
+            success: function (data) {
+                callback(data.nombre);
+            },
+            error: function (error) {
+                console.log("Error al obtener nombre de la chatarra: " + error.responseText);
+            }
+        });
+    }
+    
+
+    function actualizarNombres() {
+        // Obtén todos los elementos TD que contienen los nombres de las chatarras
+        var elementosNombreChatarra = $("[id^=nombreChatarra_]");
+
+        // Itera sobre cada elemento y actualiza su contenido
+        elementosNombreChatarra.each(function () {
+            var idChatarra = $(this).attr("id").split("_")[1];
+            ObtenerNombreChatarra(idChatarra, function (nombre) {
+                $(this).text(nombre);
+            }.bind(this)); // Usamos bind para que "this" en la función de callback sea el elemento actual
+        });
+    }
+
+    ///SUMAAAAAAAAAA
+    function calcularTotal() {
+        var total = 0;
+
+        // Recorre todas las filas en la tabla de detalles
+        $("#detallesCompraBody tr").each(function () {
+            // Obtén el valor del subtotal de la última celda de la fila
+            var subtotal = parseFloat($(this).find("td:last").text());
+
+            // Suma el subtotal al total
+            total += subtotal;
+        });
+
+        // Muestra el total debajo de la tabla
+
+        $("#totalContainer").text("El total es: " + total.toLocaleString('es-ES'));
+        $("#total").val(total);
+        
+    }
+    //FIN SUMA
+
+    
+
+    //--------------------------------
+    //AÑADIR DETALLES COMPRA
+    function addDetalleCompra() {
+        var idChatarra = $("#idChatarra").val();
+        var idTicketCompra = $("#idTicket").val();
+        var cantidad = $("#cantidad").val();
+        var precio = $("#precio").val();
+        // Calcular subtotal
+        var subtotal = cantidad * precio;
+
+
+        // Crear la nueva fila de detalles
+        var nuevaFila = "<tr>" +
+            "<td>" + idChatarra + "</td>" +
+            "<td id='nombreChatarra_" + idChatarra + "'></td>" +
+            "<td>" + cantidad + "</td>" +
+            "<td>" + precio + "</td>" +
+            "<td>" + subtotal + "</td>" +
+            "</tr>";
+
+        $.ajax({
+            url: '/GenerarTicketCompra/CrearDetalleCompra',
+            type: 'POST',
+            data: { idchatarra: idChatarra, idticketcompra: idTicketCompra, cantidad: cantidad, subtotal: subtotal },
+            success: function (data) {
+
+                $("#detallesCompraBody").append(nuevaFila);
+                
+                $("#precio").val('');
+                $("#cantidad").val('');
+                $("#idChatarra").val('');
+                $("#chatarra").val(''); 
+                $("#chatarra").focus();
+                actualizarNombres();
+                calcularTotal();
+            },
+            error: function (error) {
+
+            }
+        });
+    }
+
+    $(document).ready(function () {
+        calcularTotal();
+    });
+
+    //FIN AÑADIR DETALLES COMPRA
+
+    // AÑADIR TOTAL
+    function addTotal() {
+        var idticketcompra = $("#idTicket").val();
+        var total = $("#total").val(); // Obtener el valor como cadena
+
+        $.ajax({
+            url: '/GenerarTicketCompra/ImprimirTicket',
+            type: 'POST',
+            data: { idticketcompra: idticketcompra, total: total },
+            success: function (data) {
+                $("#alertContainer").html('<div class="alert alert-success" role="alert">Transacción generada con éxito.</div>');
+                generarTicketTxt(idticketcompra, total);
+                // Oculta la alerta después de 5 segundos
+                setTimeout(function () {
+                    $("#alertContainer").empty(); // Elimina el contenido de alertContainer
+                }, 5000);
+                $("#idVendedor").val('');
+                $("#nombre").val('');
+                $("#telefono").val('');
+                $("#direccion").val('');
+                $("#idTicket").val('');
+                $("#idChatarra").val('');
+                $("#chatarra").val('');
+                $("#precio").val('');
+                $("#cantidad").val('');
+                $("#totalContainer").empty();
+                $("#total").val('');
+                $("#detallesCompraBody").empty();
+                $("#idVendedor").focus();
+                
+
+            },
+            error: function (error) {
+                $("#alertContainer").html('<div class="alert alert-danger" role="alert">Error al realizar la transacción.</div>');
+
+                // Oculta la alerta después de 5 segundos
+                setTimeout(function () {
+                    $("#alertContainer").empty(); // Elimina el contenido de alertContainer
+                }, 5000);
+
+            }
+        });
+    }
+
+    //FIN TOTAL
+
+
+
+
+    // Función para generar el archivo TXT
+    function generarTicketTxt(idticketcompra, total) {
+        var fecha = $("#fecha").val();
+        var nombre = $("#nombre").val();
+        $.ajax({
+            url: '/GenerarTicketCompra/GenerarTicketTxt',
+            type: 'POST',
+            data: { idticketcompra: idticketcompra, total: total, fecha: fecha, nombre: nombre},
+            xhrFields: {
+                responseType: 'blob' // Indica que la respuesta es un Blob
+            },
+            success: function (data) {
+                if (data) {
+                    // Crear un enlace de descarga
+                    var link = document.createElement('a');
+
+                    // Crear el contenido del archivo como Blob
+                    var blob = new Blob([data], { type: 'text/plain;charset=utf-8' });
+
+                    // Asignar la URL del Blob al enlace
+                    link.href = URL.createObjectURL(blob);
+                    link.download = `Ticket_${idticketcompra}.txt`;
+
+                    // Simular clic en el enlace para iniciar la descarga
+                    link.click();
+                } else {
+                    alert("Error al generar el ticket TXT.");
+                }
+            },
+            error: function (error) {
+                alert("Error al generar el ticket TXT.");
+            }
+        });
+    }
+
+
+    //BUSCAR VENDEDOR
+    //BUSCAR VENDEDOR
+    $(document).ready(function () {
+        // Evento cuando se presiona una tecla en el campo de ID Vendedor
+        $("#idVendedor").keydown(function (e) {
+            // Verificar si la tecla presionada es "Enter" (código 13)
+            if (e.which === 13) {
+                // Realizar la búsqueda en la base de datos
+                var idVendedor = $(this).val();
+                var fecha = $("#fecha").val();  // Asegúrate de que la fecha esté disponible aquí
+                buscarVendedor(idVendedor, fecha);
+            }
+        });
+    });
+
+    // Función para buscar vendedor en la base de datos
+    function buscarVendedor(idVendedor, fecha) {
+        $.ajax({
+            url: '/GenerarTicketCompra/BuscarVendedor',
+            type: 'GET',
+            data: { idVendedor: idVendedor },
+            success: function (data) {
+                // Verificar si se encontró el vendedor
+                if (data.encontrado) {
+                    // Actualizar los campos con los datos del vendedor
+                    $("#nombre").val(data.nombre);
+                    $("#telefono").val(data.telefono);
+                    $("#direccion").val(data.direccion);
+
+                    // Limpiar alerta
+                    $("#alertContainer").empty();
+
+                    // Llamar a la función para generar el ticket
+                    generarTicket(idVendedor, fecha);
+                } else {
+                    // Mostrar mensaje de alerta
+                    $("#alertContainer").html('<div class="alert alert-warning" role="alert">El vendedor no existe.</div>');
+                    // Oculta la alerta después de 5 segundos
+                    setTimeout(function () {
+                        $("#alertContainer").empty(); // Elimina el contenido de alertContainer
+                    }, 5000);
+                }
+            },
+            error: function (error) {
+                console.log("Error al buscar vendedor: " + error.responseText);
+            }
+        });
+    }
+
+    function generarTicket(idVendedor, fecha) {
+        $.ajax({
+            url: '/GenerarTicketCompra/CrearTicketCompra',
+            type: 'POST',
+            data: { idVendedor: idVendedor, fecha: fecha },
+            dataType: 'json', // Especifica que esperas JSON como respuesta
+            success: function (data) {
+                // Accede al ID del ticket desde la respuesta JSON
+                var idTicketCompra = data.idTicketCompra;
+
+                // Puedes realizar acciones adicionales después de obtener el ID del ticket
+                console.log("Ticket generado con éxito. ID del ticket: " + idTicketCompra);
+
+                // Actualiza la vista con el ID del ticket si es necesario
+                $("#idTicket").val(idTicketCompra);
+            },
+            error: function (error) {
+                console.log("Error al generar el ticket: " + error.responseText);
+            }
+        });
+    }
+
+
+
+    //FIN BUSCAR VENDEDOR
+
+
+
+
+</script>
+        <style>
+            /* Estilos personalizados para el datepicker */
+            #fecha-container {
+                z-index: 9999;
+            }
+
+            #datepicker-icon i {
+                color: #28a745; /* Color del botón primary de Bootstrap */
+            }
+
+        </style>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

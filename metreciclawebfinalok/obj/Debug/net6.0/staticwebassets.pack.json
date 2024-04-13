@@ -1,0 +1,933 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MetReciclaWebFinalOK.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MetReciclaWebFinalOK.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\css\\StyleLogin.css",
+      "PackagePath": "staticwebassets\\css\\StyleLogin.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\css\\stylePagina.css",
+      "PackagePath": "staticwebassets\\css\\stylePagina.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\css\\stylePagina.min.css",
+      "PackagePath": "staticwebassets\\css\\stylePagina.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\Diego.jpeg",
+      "PackagePath": "staticwebassets\\img\\Diego.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\Display-Pantalla.jpg",
+      "PackagePath": "staticwebassets\\img\\Display-Pantalla.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\Gimmy.jpeg",
+      "PackagePath": "staticwebassets\\img\\Gimmy.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\Julio.jpeg",
+      "PackagePath": "staticwebassets\\img\\Julio.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\Paz.jpeg",
+      "PackagePath": "staticwebassets\\img\\Paz.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\Tablet.webp",
+      "PackagePath": "staticwebassets\\img\\Tablet.webp"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\acerca.png",
+      "PackagePath": "staticwebassets\\img\\acerca.png"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\blanca.jpg",
+      "PackagePath": "staticwebassets\\img\\blanca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\box.png",
+      "PackagePath": "staticwebassets\\img\\box.png"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\caja.jpg",
+      "PackagePath": "staticwebassets\\img\\caja.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\carlos.jpeg",
+      "PackagePath": "staticwebassets\\img\\carlos.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\cash-banknote.png",
+      "PackagePath": "staticwebassets\\img\\cash-banknote.png"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\cerrar.png",
+      "PackagePath": "staticwebassets\\img\\cerrar.png"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\chatarra-electronica.jpg",
+      "PackagePath": "staticwebassets\\img\\chatarra-electronica.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\chatarra.png",
+      "PackagePath": "staticwebassets\\img\\chatarra.png"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\desmontar-el-ordenador-personal.jpg",
+      "PackagePath": "staticwebassets\\img\\desmontar-el-ordenador-personal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\disco-duro.jpg",
+      "PackagePath": "staticwebassets\\img\\disco-duro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\está-desmontando-la-computadora.jpg",
+      "PackagePath": "staticwebassets\\img\\está-desmontando-la-computadora.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\fuente-de-poder.jpg",
+      "PackagePath": "staticwebassets\\img\\fuente-de-poder.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\impresora-laser.jpg",
+      "PackagePath": "staticwebassets\\img\\impresora-laser.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\inicio.png",
+      "PackagePath": "staticwebassets\\img\\inicio.png"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\list.png",
+      "PackagePath": "staticwebassets\\img\\list.png"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\logo1.png",
+      "PackagePath": "staticwebassets\\img\\logo1.png"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\logo3.png",
+      "PackagePath": "staticwebassets\\img\\logo3.png"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\logo32.png",
+      "PackagePath": "staticwebassets\\img\\logo32.png"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\overlay-bottom.png",
+      "PackagePath": "staticwebassets\\img\\overlay-bottom.png"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\overlay-top.png",
+      "PackagePath": "staticwebassets\\img\\overlay-top.png"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\privacidad.png",
+      "PackagePath": "staticwebassets\\img\\privacidad.png"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\proveedor.png",
+      "PackagePath": "staticwebassets\\img\\proveedor.png"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\ram.webp",
+      "PackagePath": "staticwebassets\\img\\ram.webp"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\re.png",
+      "PackagePath": "staticwebassets\\img\\re.png"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\reciclaje-electronico-existe.jpg",
+      "PackagePath": "staticwebassets\\img\\reciclaje-electronico-existe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\servicio1.jpg",
+      "PackagePath": "staticwebassets\\img\\servicio1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\servicio2.jpg",
+      "PackagePath": "staticwebassets\\img\\servicio2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\servicio3.jpg",
+      "PackagePath": "staticwebassets\\img\\servicio3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\servicio4.jpg",
+      "PackagePath": "staticwebassets\\img\\servicio4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\table.png",
+      "PackagePath": "staticwebassets\\img\\table.png"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\tarjeta.jpg",
+      "PackagePath": "staticwebassets\\img\\tarjeta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\img\\truck.png",
+      "PackagePath": "staticwebassets\\img\\truck.png"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\js\\mainPagina.js",
+      "PackagePath": "staticwebassets\\js\\mainPagina.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\mail\\contact.js",
+      "PackagePath": "staticwebassets\\mail\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\mail\\contact.php",
+      "PackagePath": "staticwebassets\\mail\\contact.php"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\mail\\jqBootstrapValidation.min.js",
+      "PackagePath": "staticwebassets\\mail\\jqBootstrapValidation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_code.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_code.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_custom-forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_jumbotron.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_media.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_media.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_print.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_print.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.css",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_size.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_align.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_display.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_interactions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_interactions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_text.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doomed666\\Desktop\\Lenguajes Visuales II\\MetReciclaWebFinalOK\\MetReciclaWebFinalOK\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MetReciclaWebFinalOK.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MetReciclaWebFinalOK.props",
+      "PackagePath": "build\\MetReciclaWebFinalOK.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MetReciclaWebFinalOK.props",
+      "PackagePath": "buildMultiTargeting\\MetReciclaWebFinalOK.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MetReciclaWebFinalOK.props",
+      "PackagePath": "buildTransitive\\MetReciclaWebFinalOK.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

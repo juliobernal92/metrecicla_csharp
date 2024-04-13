@@ -1,0 +1,31 @@
+﻿@model MetReciclaWebFinalOK.Models.ChatarraVMRest
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalles</h1>
+
+<div>
+    <h45>Detalles de la chatarra</h45>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Preciocompra)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Preciocompra)
+        </dd>
+    </dl>
+</div>
+<br />
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Idchatarra" class="btn btn-secondary">Editar</a> |
+    <a asp-action="Index" class="btn btn-secondary">Volver atras</a>
+</div>

@@ -1,0 +1,44 @@
+﻿@model IEnumerable<MetReciclaWebFinalOK.Models.ChatarraVMRest>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Listado de Chatarras</h1>
+<br />
+<h5>Añade chatarras a la base de datos</h5>
+<br />
+<h6>Con WebService Rest</h6>
+<br />
+
+<p><a asp-action="Create" class="btn btn-secondary">Nueva Chatarra</a></p>
+<table class="table table-hover table-light table-striped table-borderless">
+    <thead class="table table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Preciocompra)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Preciocompra)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.Idchatarra" class="btn btn-secondary btn-sm">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.Idchatarra" class="btn btn-secondary btn-sm">Detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Idchatarra" class="btn btn-danger btn-sm">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
